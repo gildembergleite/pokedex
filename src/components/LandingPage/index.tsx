@@ -26,7 +26,7 @@ export default function LandingPage() {
     try {
       const url = 'https://pokeapi.co/api/v2/pokemon/'
       const endpoints = []
-      for (let i = 1; i <= 9; i++) endpoints.push(`${url}${i}`)
+      for (let i = 1; i <= 386; i++) endpoints.push(`${url}${i}`)
       const response = await axios.all(endpoints.map((item) => axios.get(item)))
       setPokeList(response)
 
