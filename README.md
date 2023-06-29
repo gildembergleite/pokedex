@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokedex
 
-## Getting Started
+[![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![STATUS](https://img.shields.io/badge/status-em%20desenvolvimento-yellow.svg)
+![Data da última versão](https://img.shields.io/badge/última%20versão-agosto-blueviolet.svg)
 
-First, run the development server:
+Este é o repositório do projeto Pokedex, desenvolvido com Next.js e TypeScript. O projeto utiliza a API PokeAPI para exibir cards de pokemons e oferece a opção de capturá-los.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Prints
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Aqui estão alguns prints do projeto:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ![Print 1](./public/print1.png)
+- ![Print 2](./public/print2.png)
+- ![Print 3](./public/print3.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologias utilizadas
 
-## Learn More
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Axios
+- PokeAPI
+- Chakra UI
 
-To learn more about Next.js, take a look at the following resources:
+## Como clonar o repositório e instalar as dependências
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Siga as instruções abaixo para clonar o repositório e instalar as dependências necessárias para rodar o projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Abra o terminal e navegue até o diretório em que deseja clonar o repositório.
+2. Execute o seguinte comando para clonar o repositório:
+   ```
+   git clone https://github.com/gildembergleite/pokedex.git
+   ```
+3. Navegue até o diretório do projeto:
+   ```
+   cd pokedex
+   ```
+4. Instale as dependências utilizando o gerenciador de pacotes npm:
+   ```
+   npm install
+   ```
+5. Após a instalação, você pode iniciar o projeto executando o seguinte comando:
+   ```
+   npm run dev
+   ```
+6. O projeto será iniciado e estará disponível no seu navegador no endereço `http://localhost:3000`.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Agora você pode explorar a Pokedex localmente e desfrutar das funcionalidades oferecidas.
