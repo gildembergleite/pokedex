@@ -10,9 +10,9 @@ Este é o repositório do projeto Pokedex, desenvolvido com Next.js e TypeScript
 
 Aqui estão alguns prints do projeto:
 
-- ![Print 1](./public/print1.png)
-- ![Print 2](./public/print2.png)
-- ![Print 3](./public/print3.png)
+- ![Print 1](./public/prints/print1.png)
+- ![Print 2](./public/prints/print2.png)
+- ![Print 3](./public/prints/print3.png)
 
 ## Tecnologias utilizadas
 
