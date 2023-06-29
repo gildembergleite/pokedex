@@ -58,8 +58,9 @@ export default function LandingPage() {
     setInputSearch('')
     setFilterSearch(type)
 
-    const results: any = pokeList?.filter((pokemon: PokemonType) =>
-      pokemon.data.types.some((pokeType: any) => pokeType.type.name === type),
+    const results: AxiosResponse<any, any>[] | undefined = pokeList?.filter(
+      (pokemon: PokemonType) =>
+        pokemon.data.types.some((pokeType: any) => pokeType.type.name === type),
     )
 
     setListByType(results)
