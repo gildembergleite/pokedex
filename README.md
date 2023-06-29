@@ -2,7 +2,7 @@
 
 [![Licença](https://img.shields.io/badge/licença-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![STATUS](https://img.shields.io/badge/status-em%20desenvolvimento-green.svg)
-![Data da última versão](https://img.shields.io/badge/última%20versão-agosto-blueviolet.svg)
+![Data da última versão](https://img.shields.io/badge/última%20versão-junho-blueviolet.svg)
 
 Este é o repositório do projeto Pokedex, desenvolvido com Next.js e TypeScript. O projeto utiliza a API PokeAPI para exibir cards de pokemons e oferece a opção de capturá-los.
 
